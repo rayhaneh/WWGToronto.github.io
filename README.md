@@ -1,2 +1,2 @@
 ## Deployments
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project uses github actions and gh-pages to push a new build of the app to main branch after a push to the source branch.
