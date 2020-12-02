@@ -1,17 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-function App() {
+import { ScrollToTop } from './components'
+
+import { routes as r } from './routes';
+
+
+const routes = r.map((route, index) =>
+  <Route
+    key={index}
+    exact={route.path === '/'}
+    path={route.path}
+    component={route.component}
+  />
+);
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Women Who Go Toronto
-        </p>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop>
+        <div>
+          <Switch>
+            {routes}
+          </Switch>
+        </div>
+      </ScrollToTop>
+    </Router>
   );
 }
 
-export default App;
