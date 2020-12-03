@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '../assets/images/image0.png'
+import logo from '../assets/images/logo.png'
 
 
 export const Logo = (): JSX.Element => {

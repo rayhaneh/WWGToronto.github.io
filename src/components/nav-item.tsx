@@ -18,7 +18,7 @@ export const NavItem = (
   return (
     <NavLink
       to={route}
-      className={'link white dim f6 f5-ns dib mr3 ttu pv3 pv-2-m pv2-l tc'}
+      className={'link near-black dim f6 f5-ns dib mr3 ttu pv3 pv-2-m pv2-l tc'}
       activeClassName={'bb'}
       exact={true}
     >

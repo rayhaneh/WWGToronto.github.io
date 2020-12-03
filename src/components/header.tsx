@@ -19,27 +19,27 @@ export class Header extends React.Component<{}, State> {
 
   public render() {
     return (
-      <div className={'top-0 fixed w-100 z-5'}>
+      <div className={'top-0 fixed w-100 z-5 bg-near-white'}>
         <div className={'dn dn-m di-l'}>
-          <div className={'flex items-center bb b--white bw1 bg-navy'}>
+          <div className={'flex items-center bw1'}>
             <Logo />
             <NavBar menuDirection={'row'} />
           </div>
         </div>
 
         <div className={'di di-m dn-l'}>
-          <div className={'flex flex-column bb b--white bw1 bg-navy'}>
+          <div className={'flex flex-column bw1'}>
             <div className={'flex justify-between items-center bw1'}>
               <Logo />
               {this.state.menuOpen ?
-                <div className={'list flex ma0 ph4 white'}>
-                  <button onClick={this.toggleMenu} className={'gray bg-navy link bn'}>
+                <div className={'list flex ma0 ph4'}>
+                  <button onClick={this.toggleMenu} className={'gray bg-near-white link bn'}>
                     <i className='fa fa-times fa-2x' aria-hidden='true' />
                   </button>
                 </div>
                 :
-                <div className={'list flex ma0 ph4 white'}>
-                  <button onClick={this.toggleMenu} className={'gray bg-navy link bn focus-bn'}>
+                <div className={'list flex ma0 ph4'}>
+                  <button onClick={this.toggleMenu} className={'gray bg-near-white link bn focus-bn'}>
                     <i className='fa fa-bars fa-2x' aria-hidden='true' />
                   </button>
                 </div>
