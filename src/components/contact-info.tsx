@@ -13,10 +13,10 @@ export const ContactInfo = (
   return (
     <div className={'flex flex-column ma4'}>
       <div>
-        <i className={`fa fa-${props.icon} fa-1x v-mid`} aria-hidden='true' />
+        <i className={`fa fa-${props.icon} fa-2x v-mid`} aria-hidden='true' />
         <span className={'f3 v-mid pl2 tu'}>{props.title}</span>
       </div>
-      <p> {props.content} </p>
+      <p className={'lh-copy'}> {props.content} </p>
     </div>
   );
 }

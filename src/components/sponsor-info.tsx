@@ -13,7 +13,7 @@ export const SponsorInfo = (
   return (
     <div className={'flex flex-column justify-between pa4 ma2'}>
       <p className={'f3 v-mid ma0 ttu'}>{props.title}</p>
-      <p> {props.content} </p>
+      <p className={'lh-copy'}> {props.content} </p>
     </div>
   );
 }

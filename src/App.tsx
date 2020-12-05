@@ -23,7 +23,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop>
-        <div>
+        <div className={'courier'}>
           <Switch>
             {routes}
           </Switch>

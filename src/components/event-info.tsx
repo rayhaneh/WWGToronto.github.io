@@ -19,7 +19,7 @@ export const EventInfo = (
           <h1 className={'f-subheadline'}>{props.day}</h1>
           <p className={'ttu b'}>{props.month} {props.year}</p>
         </div>
-        <div className={'flex flex-column pa4 w-100 w-70-m w-80-l bg-near-white '}>
+        <div className={'flex flex-column pa4 w-100 w-70-m w-80-l bg-near-white'}>
           <h1 className={'ttu b f4 v-mid fw4'}>{props.title}</h1>
           <p className={'lh-copy'}>{props.content}</p>
         </div>
