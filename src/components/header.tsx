@@ -9,15 +9,15 @@ interface State {
   menuOpen: boolean;
 }
 
-export class Header extends React.Component<{}, State> {
-  constructor(props: {}) {
+export class Header extends React.Component<unknown, State> {
+  constructor(props: unknown) {
     super(props);
     this.state = {
       menuOpen: false,
     }
   }
 
-  public render() {
+  public render(): JSX.Element {
     return (
       <div className={'top-0 fixed w-100 z-5 bg-near-white'}>
         <div className={'dn dn-m di-l'}>
