@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { withRouter } from 'react-router-dom';
 
+/* eslint-disable @typescript-eslint/no-explicit-any*/
 class ScrollToTop extends React.Component<any> {
   public componentDidUpdate(prevProps: any) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
