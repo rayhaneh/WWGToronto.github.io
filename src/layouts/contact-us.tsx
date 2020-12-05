@@ -8,7 +8,7 @@ import {
 
 
 export class ContactUs extends React.Component {
-  public render() {
+  public render(): JSX.Element {
     return (
       <div className={'pt5 bg-gold'}>
         <Header />

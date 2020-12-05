@@ -7,7 +7,7 @@ import {
 
 
 export class Home extends React.Component {
-  public render() {
+  public render(): JSX.Element {
     return (
       <div className={'pt5'}>
         <Header />
