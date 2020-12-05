@@ -2,10 +2,8 @@ name: PR Review
 
 on:
   pull_request:
-    types:
-      - edited
-    branches:
-      - source
+    types: [opened, edited, reopened]
+    branches: [source]
 
 jobs:
   build:
@@ -14,8 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version:
-          - 15.x
+        node-version: [15.x]
 
     steps:
       - name: Checkout
