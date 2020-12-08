@@ -18,7 +18,7 @@ export const ContactInfo = (props: ContactInfoProps): JSX.Element => {
           whileHover={{ scale: 1.2, rotate: 90 }}
           whileTap={{ scale: 0.8, rotate: -90, borderRadius: '100%' }}
         />
-        <a href={props.url} className={'f3 v-mid pl2 tu'}>
+        <a href={props.url} className={'f3 v-mid pl2 tu dim black'}>
           {props.title}
         </a>
       </div>
