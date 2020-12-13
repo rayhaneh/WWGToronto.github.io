@@ -3,14 +3,14 @@ import * as React from 'react';
 import {
   Header,
   Headline,
+  Footer,
   SponsorInfo,
 } from '../components';
-
 
 export class Sponsors extends React.Component {
   public render(): JSX.Element {
     return (
-      <div className={'pt5'}>
+      <>
         <Header />
         <div className={'pt5 bg-moon-gray'}>
           <Headline
@@ -34,7 +34,8 @@ export class Sponsors extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+        <Footer />
+      </>
     );
   }
 }

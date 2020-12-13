@@ -3,6 +3,7 @@ import * as React from 'react';
 import {
   Header,
   Headline,
+  Footer
 } from '../components';
 
 
@@ -21,6 +22,7 @@ export class Home extends React.Component {
           <h1 className={'ttu gray'}>About Us</h1>
           <p className={'lh-copy w-80'}>Women Who Go Toronto is a community of women and non-binary Go (Golang) developers committed to learning and sharing intermediate and advanced Go programming topics in an open and inclusive environment.</p>
         </div>
+        <Footer />
       </div>
     );
   }
