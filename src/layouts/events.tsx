@@ -22,14 +22,9 @@ export class Events extends React.Component {
               content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae mollitia alias nesciunt accusantium optio commodi, blanditiis soluta hic ad in voluptate dolores itaque fugiat provident modi porro. Labore, totam ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae mollitia alias nesciunt accusantium optio commodi, blanditiis soluta hic ad in voluptate dolores itaque fugiat provident modi porro. Labore, totam ullam.'}
               signUpLink={'https://meetup.com/women-who-go-toronto/'}
             />
-            <EventInfo
-              day={18}
-              month={'Feb'}
-              year={2020}
-              title={'Second Event'}
-              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae mollitia alias nesciunt accusantium optio commodi, blanditiis soluta hic ad in voluptate dolores itaque fugiat provident modi porro. Labore, totam ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae mollitia alias nesciunt accusantium optio commodi, blanditiis soluta hic ad in voluptate dolores itaque fugiat provident modi porro. Labore, totam ullam.'}
-              signUpLink={'https://meetup.com/women-who-go-toronto/'}
-            />
+          </div>
+          <div className={'pa3'}>
+            <p>For a list of past events please visit our <a href={'https://www.meetup.com/women-who-go-toronto/events'} className={'link gray dim'}>meetup</a> page.</p>
           </div>
         </div>
         <Footer />

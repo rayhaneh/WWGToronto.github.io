@@ -6,9 +6,9 @@ export const Footer = (): JSX.Element => {
         <footer className="pv4 ph3 ph5-ns tc">
             <div className={'flex flex-column ma4'}>
                 <div>
-                    <Icon icon={'meetup'} url={'https://www.meetup.com/toronto-software-development-meetup-group/'}></Icon>
+                    <Icon icon={'meetup'} url={'https://www.meetup.com/women-who-go-toronto'}></Icon>
                     <Icon icon={'twitter'} url={'https://twitter.com/wwgtoronto'}></Icon>
-                    <Icon icon={'envelope'} url={'mailto:wwgtoronto@gmail.com'}></Icon>
+                    <Icon icon={'envelope'} url={'mailto:toronto@womenwhogo.org'}></Icon>
                     <Icon icon={'slack'} url={'#'}></Icon>
                     <Icon icon={'github'} url={'https://github.com/WWGToronto'}></Icon>
                 </div>
