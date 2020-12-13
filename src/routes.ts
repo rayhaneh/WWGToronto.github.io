@@ -1,4 +1,4 @@
-import { Events, Home, Sponsors } from "./layouts";
+import { Events, Home } from "./layouts";
 
 export const routes = [
   {
@@ -10,10 +10,5 @@ export const routes = [
     component: Events,
     path: "/events",
     text: "Events",
-  },
-  {
-    component: Sponsors,
-    path: "/sponsors",
-    text: "Sponsors",
   },
 ];
