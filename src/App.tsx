@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -21,7 +21,7 @@ const routes = r.map((route, index) =>
 
 export default function App(): JSX.Element {
   return (
-    <Router>
+    <Router basename={'/'}>
       <ScrollToTop>
         <div className={'courier'}>
           <Switch>
@@ -32,4 +32,3 @@ export default function App(): JSX.Element {
     </Router>
   );
 }
-
