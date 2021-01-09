@@ -15,8 +15,8 @@ export const Footer = (): JSX.Element => {
             </div>
             <div className="mt4">
                 <a href="/" className="f6 link dim gray dib mr3 mr4-ns">Home</a>
-                <a href="/events" className="f6 link dim gray dib mr3 mr4-ns">Events</a>
-                <a href="#" className="f6 link dim gray dib">Code of Conduct</a>
+                <a href="/#/events" className="f6 link dim gray dib mr3 mr4-ns">Events</a>
+                <a href="#" className="f6 link dim gray dib mr3 mr4-ns">Code of Conduct</a>
             </div>
         </footer>
     )
