@@ -15,10 +15,10 @@ export const Headline = (
 
   return (
     <div className={'flex flex-column items-center justify-center cover pa5'}>
-      <h1 className={'near-black f1 fw1'}>
+      <h1 className={'f1 fw1'}>
         {mainText}
       </h1>
-      <h3 className={'near-black f4 fw1'}>
+      <h3 className={'f4 fw1'}>
         {supportingText}
       </h3>
     </div>
