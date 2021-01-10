@@ -13,7 +13,7 @@ export class Home extends React.Component {
     return (
       <div className={'pt5'}>
         <Header />
-        <div className={'pt5 bg-orange near-white'}>
+        <div className={'pt5 bg-gopher-blue near-black'}>
           <Headline
             mainText={'Women Who Go Toronto'}
             supportingText={'A community of women and non-binary Go developers'}

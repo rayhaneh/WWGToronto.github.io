@@ -20,7 +20,7 @@ export const EventInfo = (
 
   return (
     <div className={'flex flex-column flex-row-m flex-row-l justify-center pa3 mt4'}>
-      <div className={'flex flex-column justify-center w-100 w-30-m w-20-l white bg-orange tc'}>
+      <div className={'flex flex-column justify-center w-100 w-30-m w-20-l white bg-gopher-blue tc'}>
         <h1 className={'f-subheadline'}>{props.day}</h1>
         <p className={'ttu b lh-solid truncate h-25'}>{props.month} {props.year}</p>
       </div>

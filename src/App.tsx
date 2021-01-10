@@ -6,8 +6,9 @@ import {
 } from 'react-router-dom';
 
 import { ScrollToTop } from './components'
-
 import { routes as r } from './routes';
+
+import './app.css'
 
 
 const routes = r.map((route, index) =>
