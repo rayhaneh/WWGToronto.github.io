@@ -9,7 +9,7 @@ export const Footer = (): JSX.Element => {
                     <Icon icon={'meetup'} url={'https://www.meetup.com/women-who-go-toronto'}></Icon>
                     <Icon icon={'twitter'} url={'https://twitter.com/wwgtoronto'}></Icon>
                     <Icon icon={'envelope'} url={'mailto:toronto@womenwhogo.org'}></Icon>
-                    <Icon icon={'slack'} url={'#'}></Icon>
+                    <Icon icon={'slack'} url={'https://womenwhogo.slack.com'}></Icon>
                     <Icon icon={'github'} url={'https://github.com/WWGToronto'}></Icon>
                 </div>
             </div>

@@ -19,7 +19,7 @@ export class Header extends React.Component<unknown, State> {
 
   public render(): JSX.Element {
     return (
-      <div className={'top-0 fixed w-100 z-5 bg-near-white'}>
+      <div className={'top-0 fixed w-100 z-5 bg-white'}>
         <div className={'dn dn-m di-l'}>
           <div className={'flex items-center bw1'}>
             <Logo />
@@ -33,13 +33,13 @@ export class Header extends React.Component<unknown, State> {
               <Logo />
               {this.state.menuOpen ?
                 <div className={'list flex ma0 ph4'}>
-                  <button onClick={this.toggleMenu} className={'gray bg-near-white link bn'}>
+                  <button onClick={this.toggleMenu} className={'gray link bn focus-bn bg-white'}>
                     <i className='fa fa-times fa-2x' aria-hidden='true' />
                   </button>
                 </div>
                 :
                 <div className={'list flex ma0 ph4'}>
-                  <button onClick={this.toggleMenu} className={'gray bg-near-white link bn focus-bn'}>
+                  <button onClick={this.toggleMenu} className={'gray link bn focus-bn bg-white'}>
                     <i className='fa fa-bars fa-2x' aria-hidden='true' />
                   </button>
                 </div>

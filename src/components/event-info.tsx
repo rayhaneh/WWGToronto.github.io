@@ -20,11 +20,11 @@ export const EventInfo = (
 
   return (
     <div className={'flex flex-column flex-row-m flex-row-l justify-center pa3 mt4'}>
-      <div className={'flex flex-column justify-center w-100 w-30-m w-20-l white bg-gold tc'}>
+      <div className={'flex flex-column justify-center w-100 w-30-m w-20-l white bg-orange tc'}>
         <h1 className={'f-subheadline'}>{props.day}</h1>
         <p className={'ttu b lh-solid truncate h-25'}>{props.month} {props.year}</p>
       </div>
-      <div className={'flex flex-column pa4 w-100 w-70-m w-80-l bg-near-white'}>
+      <div className={'flex flex-column pa4 w-100 w-70-m w-80-l bg-white'}>
         <h1 className={'ttu b f4 v-mid fw4'}>{props.title}</h1>
         <div className={'lh-copy'}>
           <span>{trimmedContent}</span>
